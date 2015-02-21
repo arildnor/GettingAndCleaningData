@@ -84,9 +84,9 @@ Information from the full description homepage (link shown above) are:
 The zip file (link above) were downloaded and put in the same directory as the run_analysis.R script.
 The data were unzipped and generated a folder structure as outlined.
 
-"UCI HAR Dataset" ____test____Inertial Signals
+"UCI HAR Dataset" ------test-----Inertial Signals
 
-                  ____train___Inertial Signals
+                  ------train----Inertial Signals
 
 The text below is from the README.txt file in the downloaded data.
 
@@ -152,17 +152,17 @@ Datasets read from the train and test subdirectories:
 "X_train.txt"           Feature vector train data
 
 #Processing.
-Merging subject_, y_ and X_ train and test datasets using rbind.
-Columns in subject and activity are named
-The names are set in the X_ merged set using the features set read.
-We only want to keep mean() and std() features for further work.
+1. Merging subject_, y_ and X_ train and test datasets using rbind.
+2. Columns in subject and activity are named
+3. The names are set in the X_ merged set using the features set read.
+4. We only want to keep mean() and std() features for further work.
 I extract the relevant columns using the grepl command. This reduces the columns from 561 to 66.
-All columns have got labels. One could discuss if editing names would be useful.
+5. All columns have got labels. One could discuss if editing names would be useful.
 I decided to minimize editing and stick to the originals.
-I have a combined dataset with subject, activity and kept features. Combined with cbind.
-Then I used the dplyr package to group on activity and subject and calculate the mean of theese groups.
+6. I have a combined dataset with subject, activity and kept features. Combined with cbind.
+7. Then I used the dplyr package to group on activity and subject and calculate the mean of theese groups.
 This gave a reduction from 10299 to 180 rows.
-This dataset was then exported.
+8. This dataset was then exported.
 
 The exported dataset has the original names for vectors. There is an extra column with activity as text. 
 I decided to keep the original numeric activity coding also.
