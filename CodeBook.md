@@ -61,7 +61,7 @@ Information from the full description homepage (link shown above) are:
 *- Its activity label.*
 *- An identifier of the subject who carried out the experiment.*
 
-*Relevant Papers:
+*Relevant Papers:*
 
 *Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and Jorge L. Reyes-Ortiz. Human Activity Recognition on *
 *Smartphones using a Multiclass Hardware-Friendly Support Vector Machine. International Workshop of *
@@ -79,9 +79,9 @@ Information from the full description homepage (link shown above) are:
 *Machine Learning, ESANN 2013. Bruges, Belgium 24-26 April 2013.*
 
 *Citation Request:*
-*Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and Jorge L. Reyes-Ortiz. A Public Domain Dataset for *
-*Human Activity Recognition Using Smartphones. 21th European Symposium on Artificial Neural Networks, *
-*Computational Intelligence and Machine Learning, ESANN 2013. Bruges, Belgium 24-26 April 2013. *
+*Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and Jorge L. Reyes-Ortiz. A Public Domain Dataset for*
+*Human Activity Recognition Using Smartphones. 21th European Symposium on Artificial Neural Networks,*
+*Computational Intelligence and Machine Learning, ESANN 2013. Bruges, Belgium 24-26 April 2013*
 
 ## Data preparations
 The zip file (link above) were downloaded and put in the same directory as the run_analysis.R script.
@@ -170,4 +170,4 @@ This gave a reduction from 10299 to 180 rows.
 The exported dataset has the original names for vectors. There is an extra column with activity as text. 
 I decided to keep the original numeric activity coding also.
 
-The run_analysis.R script is well documented and explains the processing in detail
+The run_analysis.R script is well documented and explains the processing in detail.
