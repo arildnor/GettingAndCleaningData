@@ -42,7 +42,7 @@ features_file <- paste(currentDirectory,"/",datasetHomeFolder,"/",features_name,
 features <- read.table(features_file, sep="\t", header=FALSE)
 features
 #
-# This is the activity labels connected to the X_datasets
+# This is the activity labels connected to the y_datasets
 #
 activity_labels_name <- "activity_labels.txt"
 activity_labels_file <- paste(currentDirectory,"/",datasetHomeFolder,"/",activity_labels_name,sep="")
