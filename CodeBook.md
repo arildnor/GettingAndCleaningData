@@ -78,7 +78,7 @@ Information from the full description homepage (link shown above) are:
 *Environments. 21th European Symposium on Artificial Neural Networks, Computational Intelligence and *
 *Machine Learning, ESANN 2013. Bruges, Belgium 24-26 April 2013.*
 
-*Citation Request:
+*Citation Request:*
 *Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and Jorge L. Reyes-Ortiz. A Public Domain Dataset for *
 *Human Activity Recognition Using Smartphones. 21th European Symposium on Artificial Neural Networks, *
 *Computational Intelligence and Machine Learning, ESANN 2013. Bruges, Belgium 24-26 April 2013. *
@@ -169,3 +169,5 @@ This gave a reduction from 10299 to 180 rows.
 
 The exported dataset has the original names for vectors. There is an extra column with activity as text. 
 I decided to keep the original numeric activity coding also.
+
+The run_analysis.R script is well documented and explains the processing in detail
