@@ -13,4 +13,3 @@ The top folder unzipped are "UCI HAR Dataset". This has subfolders with train an
 Higlighting the complete script (I do it in RStudio) and click run.
 It will do the complete task. The code is well documented, explaing the various steps.
 My main focus has been to make a simple well documented code. It is not optimized for speed.
-
