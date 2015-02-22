@@ -167,7 +167,6 @@ I decided to minimize editing and stick to the originals.
 This gave a reduction from 10299 to 180 rows.
 8. This dataset was then exported.
 
-The exported dataset has the original names for vectors. There is an extra column with activity as text. 
-I decided to keep the original numeric activity coding also.
+The exported dataset has the activity (as text), subject and the original names for the vectors.
 
 The run_analysis.R script is well documented and explains the processing in detail.
