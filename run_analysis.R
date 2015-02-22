@@ -204,14 +204,6 @@ activity_labels$rownumber <- row(activity_labels, as.factor = FALSE)
 str(activity_labels)
 print(activity_labels)
 #
-# Put labels into the merged_y dataset. 
-# I keep the activity numbers along with text description.
-#
-merged_Y$txtactivity <- 
-          activity_labels$V1[match(merged_Y$activity,activity_labels$rownumber)]
-str(merged_Y)
-head(merged_Y,n=30)
-#
 # Add the 3 datasets into combined dataset. 
 # This now contains subject, activity and the selected X_ columns
 #
@@ -260,7 +252,7 @@ grouped_tidy <- tidy_set %>%
 # function. Need to put back a text string as was done before.
 # More research may have shown me another solution, but this works
 #
-grouped_tidy$txtactivity <- 
+grouped_tidy$activity <- 
     activity_labels$V1[match(grouped_tidy$activity,activity_labels$rownumber)]
 str(grouped_tidy)
 #
